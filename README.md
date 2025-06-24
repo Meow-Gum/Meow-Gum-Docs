@@ -1,41 +1,34 @@
 # Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Trang web này được xây dựng bằng [Docusaurus](https://docusaurus.io/), một công cụ tạo trang web tĩnh hiện đại.
 
-## Installation
-
-```bash
-yarn
-```
-
-## Local Development
+## Cài đặt
 
 ```bash
-yarn start
+npm install
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
+## Phát triển cục bộ
 
 ```bash
-yarn build
+npm start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Lệnh này sẽ khởi động máy chủ phát triển cục bộ và mở một cửa sổ trình duyệt. Hầu hết các thay đổi sẽ được phản ánh ngay lập tức mà không cần phải khởi động lại máy chủ.
 
-## Deployment
-
-Using SSH:
+## Build dự án
 
 ```bash
-USE_SSH=true yarn deploy
+npm run build
 ```
 
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
+Lệnh này sẽ tạo ra các file tĩnh trong thư mục `build`, có thể được triển khai trên bất kỳ dịch vụ lưu trữ nội dung tĩnh nào.
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+---
+
+### Lưu ý nhỏ về syntax:
+- Đảm bảo dùng backtick đúng để bao code block: ``` ````bash ... ````
+- Với lệnh `build`, Docusaurus thường dùng script `"build"` trong `package.json`, nên chính xác là `npm run build` (không phải `npm build`).
+
+Nếu bạn muốn mình kiểm tra hoặc định dạng lại theo đúng style của dự án bạn đang dùng (như Prettier, lint, v.v.) thì bạn có thể chia sẻ thêm nhé!
