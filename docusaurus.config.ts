@@ -81,15 +81,15 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'feDocsSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Front-End Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/orgs/Meow-Gum/',
-          label: 'GitHub',
-          position: 'right',
+          type: 'docSidebar',
+          sidebarId: 'beDocsSidebar',
+          position: 'left',
+          label: 'Back-End Docs',
         },
       ],
     },
