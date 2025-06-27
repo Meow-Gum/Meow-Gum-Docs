@@ -28,6 +28,14 @@
   - Redirect
   - Nested routes
 
+### 🎞️ Framer Motion
+- **Phiên bản**: ^11.0.0
+- Là thư viện animation mạnh mẽ dành cho React, hỗ trợ tạo hiệu ứng chuyển động mượt mà và dễ dàng tùy biến.
+- Được tích hợp vào ứng dụng để:
+  - Tạo hiệu ứng enter/exit khi chuyển trang
+  - Animation cho component như hover, scale, opacity,...
+  - Hỗ trợ layout animations, giúp giao diện thay đổi mượt mà theo trạng thái
+  
 ### 📦 Redux Toolkit
 - **Phiên bản**: 2.0.1
 - Công cụ quản lý trạng thái toàn cục, giúp kiểm soát logic nghiệp vụ và state của ứng dụng.
